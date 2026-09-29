@@ -1,0 +1,36 @@
+{
+  "name": "@johnhenry/respondable",
+  "version": "0.0.0",
+  "description": "Respond to CSS media queries declaratively -- swap an element entirely (query-container) or apply classes/styles/attributes to existing children (attribute-provider).",
+  "type": "module",
+  "exports": {
+    "./*": "./src/*"
+  },
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "test": "node scripts/check-syntax.mjs"
+  },
+  "keywords": [
+    "html",
+    "dom",
+    "web-components",
+    "custom-elements",
+    "media-queries",
+    "responsive"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnhenry/respondable.git"
+  },
+  "homepage": "https://opensource.johnhenry.me/respondable/",
+  "engines": {
+    "node": ">=26.0.0"
+  },
+  "dependencies": {
+    "parsel-js": "^1.2.3"
+  }
+}
