@@ -6,6 +6,16 @@
 
 Full documentation: [opensource.johnhenry.me/respondable](https://opensource.johnhenry.me/respondable/)
 
+> **Archived, and renamed on the way back in.** This package is folded
+> back into [`@johnhenry/domkit`](https://github.com/johnhenry/domkit) as
+> of domkit `0.0.4`, as `@johnhenry/domkit/matchable/<module>/...` — the
+> package is renamed `matchable` there (this name read too close to
+> "responsive design," a much more common and differently-scoped web
+> term; `matchable` names the actual shared mechanism, `matchMedia()`).
+> The unscoped npm package `@johnhenry/respondable` is deprecated (not
+> removed) and will keep working at its last published version; this repo
+> is archived (read-only, not deleted).
+
 > **Provenance:** extracted from [`johnhenry/lib`](https://github.com/johnhenry/lib)'s
 > `js/` directory. Briefly part of [`@johnhenry/domkit`](https://github.com/johnhenry/domkit)
 > (a toolkit of ~40 independent DOM/HTML-component modules), then split out
